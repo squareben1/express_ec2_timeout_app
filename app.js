@@ -5,7 +5,7 @@ const port = 3000
 
 app.get('/', (req, res) => {
   console.log("Hello");
-  setTimeout(() => { res.send('Hello World!'); }, 2000);
+  setTimeout(() => { res.send('Hello World!'); }, 3600);
 
 })
 
